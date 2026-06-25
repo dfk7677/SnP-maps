@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" path="res://objects/gameplay/common/VehicleSpawner.tscn" id="4_wv1fu"]
 [ext_resource type="PackedScene" path="res://objects/props/FlagPole_01_USA.tscn" id="5_eimvp"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/InteractPoint.tscn" id="6_fssco"]
-[ext_resource type="Script" uid="uid://3hvpbglts2bi" path="res://scripts/gameplay/common/WorldIcon.gd" id="7_rcfp3"]
+[ext_resource type="Script" uid="uid://bssxr2ucvxqjx" path="res://scripts/gameplay/common/WorldIcon.gd" id="7_rcfp3"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/WorldIcon.tscn" id="8_a2ulc"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/CombatArea.tscn" id="10_todkq"]
 [ext_resource type="PackedScene" path="res://static/MP_Outskirts_Terrain.tscn" id="11_tn40l"]
@@ -353,7 +353,7 @@ points = PackedVector2Array(-8.79859, -8.29474, -14.4073, 9.26295, 0.630539, 14.
 height = 20.0
 
 [node name="Version" parent="." unique_id=1820208514 instance=ExtResource("19_nevyu")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 2, 1)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 2, 2)
 ObjId = 1001
 
 [node name="AddedAssets" type="Node3D" parent="." unique_id=341966325]
@@ -377,7 +377,7 @@ transform = Transform3D(0.436739, 0, -0.899588, 0, 1, 0, 0.899588, 0, 0.436739, 
 transform = Transform3D(0.436739, 0, -0.899588, 0, 1, 0, 0.899588, 0, 0.436739, 216.772, 89.7533, -112.21)
 
 [node name="ConstructionSite_01_Building_02" parent="AddedAssets" unique_id=1779296255 instance=ExtResource("18_j54ra")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 76.3733, 92.5178, -173.591)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 76.3733, 97.11116, -173.591)
 
 [node name="AreaTrigger5" parent="AddedAssets/ConstructionSite_01_Building_02" unique_id=1142563146 node_paths=PackedStringArray("Area") instance=ExtResource("17_oc1ah")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 51.5487, -92.5178, 264.14)
@@ -388,6 +388,9 @@ Area = NodePath("../../../PolygonVolume4")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.00610352, 9.85156, 0.0180054)
 points = PackedVector2Array(-9.96284, -9.84335, -9.90309, 9.99271, 9.93297, 9.81347, 9.93297, -9.96284)
 height = 20.0
+
+[node name="ConstructionSite_01_Building_08" parent="AddedAssets" unique_id=220787676 instance=ExtResource("18_j54ra")]
+transform = Transform3D(-1, 8.742278e-08, 0, -8.742278e-08, -1, 0, 0, 0, 1, 76.3733, 98.45703, -173.591)
 
 [node name="ConstructionSite_01_Building_03" parent="AddedAssets" unique_id=467484588 instance=ExtResource("18_j54ra")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 101.755, 92.5178, -134.904)

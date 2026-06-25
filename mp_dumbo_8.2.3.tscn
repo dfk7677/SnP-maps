@@ -4,7 +4,7 @@
 [ext_resource type="PackedScene" path="res://objects/entities/SpawnPoint.tscn" id="2_ucw7e"]
 [ext_resource type="PackedScene" path="res://objects/props/FlagPole_01_USA.tscn" id="3_vlfe6"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/InteractPoint.tscn" id="4_bdpb8"]
-[ext_resource type="Script" uid="uid://3hvpbglts2bi" path="res://scripts/gameplay/common/WorldIcon.gd" id="5_av1bf"]
+[ext_resource type="Script" uid="uid://bssxr2ucvxqjx" path="res://scripts/gameplay/common/WorldIcon.gd" id="5_av1bf"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/WorldIcon.tscn" id="6_ju3d0"]
 [ext_resource type="PackedScene" uid="uid://jv31so3xcr7p" path="res://addons/bf_portal/portal_tools/types/PolygonVolume/PolygonVolume.tscn" id="7_mcm5c"]
 [ext_resource type="PackedScene" path="res://objects/gameplay/common/VehicleSpawner.tscn" id="8_iiw03"]
@@ -205,7 +205,7 @@ InfantrySpawnPoints_Team2 = [NodePath("Team2/SpawnPoint"), NodePath("Team2/Spawn
 
 [node name="CaptureArea" parent="CapturePointA" unique_id=1729680954 instance=ExtResource("7_mcm5c")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 3.58723)
-points = PackedVector2Array(-11.8275, -13.3869, -12.057381, 0.11071777, -7.419235, 1.322586, -7.2334404, 6.912445, 18.345728, 7.494705, 18.242123, -9.50769, 12.692642, -9.009262, 8.781914, -8.969391, 8.732145, -13.856491)
+points = PackedVector2Array(-11.8275, -13.3869, -12.057381, 0.11071777, -7.419235, 1.322586, -7.2334404, 6.912445, 18.287306, 6.914276, 18.242123, -9.50769, 12.692642, -9.009262, 8.781914, -8.969391, 8.732145, -13.856491)
 height = 6.0
 
 [node name="Team1" type="Node3D" parent="CapturePointA" unique_id=328717953]
