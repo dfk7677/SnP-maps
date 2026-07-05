@@ -22,6 +22,7 @@
 [ext_resource type="PackedScene" path="res://objects/props/Container_02_Closed_DD_ProxyRadiosity.tscn" id="22_wxc00"]
 [ext_resource type="PackedScene" path="res://objects/architecture/ConstructionSite_04_B.tscn" id="23_yplna"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/Sector.tscn" id="24_xgloa"]
+[ext_resource type="Texture2D" uid="uid://bpe6ycsbxtcxc" path="res://raw/maptiles/MP_FireStorm.jpg" id="24_y7f8o"]
 [ext_resource type="PackedScene" path="res://objects/gameplay/common/AreaTrigger.tscn" id="25_rns30"]
 
 [node name="MP_FireStorm" type="Node3D" unique_id=143389312]
@@ -483,3 +484,8 @@ Area = NodePath("../PolygonVolume")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -100.0733, 134.54039, -125.7)
 points = PackedVector2Array(-21.16153, 14.665573, -0.21549225, 14.647919, -0.12287903, -5.7964935, 40.556076, -6.110626, 40.8453, -26.80156, -20.990227, -26.7276)
 height = 8.0
+
+[node name="Decal" type="Decal" parent="." unique_id=265423160]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.39996338, 0, 20.775589)
+size = Vector3(1642, 1000, 1642)
+texture_albedo = ExtResource("24_y7f8o")

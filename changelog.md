@@ -28,4 +28,18 @@ Added a bike to both teams. Moved the deploy camera more to the center of the ma
 
 Made one of the added construction sites higher so no clipping level cannot be reached.
 
+## 05/07/26
+
+### mp_battery ver. 2.2.1
+
+Fixed transports not taking damage when abandoned.
+
+### mp_eastwood ver 2.0.3
+
+Lowered walls around AA enplacements.
+
+### mp_golmud_railway ver. 1.3.0
+
+Removed MBT and added Little Bird.
+
 

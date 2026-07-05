@@ -6,7 +6,7 @@
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/InteractPoint.tscn" id="4_vd4pt"]
 [ext_resource type="PackedScene" path="res://objects/gameplay/common/VehicleSpawner.tscn" id="5_f4eve"]
 [ext_resource type="PackedScene" path="res://objects/props/FlagPole_01_USA.tscn" id="6_e0ugp"]
-[ext_resource type="Script" uid="uid://3hvpbglts2bi" path="res://scripts/gameplay/common/WorldIcon.gd" id="7_c18e3"]
+[ext_resource type="Script" uid="uid://bssxr2ucvxqjx" path="res://scripts/gameplay/common/WorldIcon.gd" id="7_c18e3"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/WorldIcon.tscn" id="8_2pdrm"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Conquest/CapturePoint.tscn" id="9_4iycq"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/CombatArea.tscn" id="10_eoimc"]
@@ -58,7 +58,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.888794, 1.04974, -6.8192)
 ObjId = 703
 VehicleType = 13
 P_DefaultRespawnTime = 30
-P_ApplyDamageToAbandonVehicle = false
 P_KeepAliveAbandonRadius = 10
 
 [node name="InteractArea" parent="TEAM_1_HQ" unique_id=4301384 instance=ExtResource("6_e0ugp")]
@@ -171,7 +170,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4.05432, 0.911949, -2.43503)
 ObjId = 704
 VehicleType = 9
 P_DefaultRespawnTime = 30
-P_ApplyDamageToAbandonVehicle = false
 P_KeepAliveAbandonRadius = 10
 
 [node name="CapturePointA" parent="." unique_id=1970705186 node_paths=PackedStringArray("CaptureArea", "InfantrySpawnPoints_Team1", "InfantrySpawnPoints_Team2") instance=ExtResource("9_4iycq")]
@@ -347,7 +345,7 @@ SectorArea = NodePath("../CombatArea/CombatVolume")
 CapturePoints = [NodePath("../CapturePointA"), NodePath("../CapturePointB"), NodePath("../CapturePointC")]
 
 [node name="Version" parent="." unique_id=384602498 instance=ExtResource("15_6r41m")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, 1)
 ObjId = 1001
 
 [node name="RestrictedAreas" type="Node3D" parent="." unique_id=1215014363]
