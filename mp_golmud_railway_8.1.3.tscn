@@ -5,7 +5,7 @@
 [ext_resource type="PackedScene" path="res://objects/entities/SpawnPoint.tscn" id="3_mvxpm"]
 [ext_resource type="PackedScene" path="res://objects/props/FlagPole_01_USA.tscn" id="4_c7lyv"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/InteractPoint.tscn" id="5_6mlog"]
-[ext_resource type="Script" uid="uid://bssxr2ucvxqjx" path="res://scripts/gameplay/common/WorldIcon.gd" id="6_oj8nj"]
+[ext_resource type="Script" uid="uid://3hvpbglts2bi" path="res://scripts/gameplay/common/WorldIcon.gd" id="6_oj8nj"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/WorldIcon.tscn" id="7_04m0i"]
 [ext_resource type="PackedScene" path="res://objects/gameplay/common/VehicleSpawner.tscn" id="8_31heu"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/CombatArea.tscn" id="9_j22i7"]
@@ -180,14 +180,14 @@ P_DefaultRespawnTime = 30
 P_KeepAliveAbandonRadius = 10
 
 [node name="TransportSpawner2" parent="TEAM_2_HQ" unique_id=1777961981 instance=ExtResource("8_31heu")]
-transform = Transform3D(0.70710677, 0, -0.70710677, 0, 1, 0, 0.70710677, 0, 0.70710677, 1.7604828, -2.5351563, -18.352356)
+transform = Transform3D(0.70710677, 0, -0.70710677, 0, 1, 0, 0.70710677, 0, 0.70710677, 10.060638, -1.5183105, -8.807861)
 ObjId = 708
 VehicleType = 9
 P_DefaultRespawnTime = 30
 P_KeepAliveAbandonRadius = 10
 
 [node name="HeliSpawner" parent="TEAM_2_HQ" unique_id=824906751 instance=ExtResource("8_31heu")]
-transform = Transform3D(-4.37114e-08, 0, -1, 0, 1, 0, 1, 0, -4.37114e-08, -13.662277, 5.0026245, 28.507446)
+transform = Transform3D(-1, 0, 8.742278e-08, 0, 1, 0, -8.742278e-08, 0, -1, -13.662277, 5.0026245, 28.507446)
 ObjId = 702
 VehicleType = 24
 P_DefaultRespawnTime = 120
@@ -213,10 +213,6 @@ metadata/_edit_lock_ = true
 
 [node name="MP_GolmudRailway_Terrain" parent="Static" unique_id=1888274660 instance=ExtResource("12_g11fj")]
 metadata/_edit_lock_ = true
-
-[node name="Version" parent="." unique_id=222238759 instance=ExtResource("13_yqtu8")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 3, 0)
-ObjId = 1001
 
 [node name="CapturePointA" parent="." unique_id=1555053279 node_paths=PackedStringArray("CaptureArea", "InfantrySpawnPoints_Team1", "InfantrySpawnPoints_Team2") instance=ExtResource("14_abhu0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -134.47452, 729.5112, 699.86365)
@@ -383,3 +379,7 @@ transform = Transform3D(0.23841476, 0, -0.97116345, 0, 1, 0, 0.97116345, 0, 0.23
 [node name="Sector" parent="." unique_id=1226531007 node_paths=PackedStringArray("SectorArea", "CapturePoints") instance=ExtResource("17_eto3b")]
 SectorArea = NodePath("../CombatArea/CombatVolume")
 CapturePoints = [NodePath("../CapturePointA"), NodePath("../CapturePointB"), NodePath("../CapturePointC")]
+
+[node name="Version" parent="." unique_id=222238759 instance=ExtResource("13_yqtu8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 3, 1)
+ObjId = 1001

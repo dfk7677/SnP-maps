@@ -34,7 +34,7 @@ Made one of the added construction sites higher so no clipping level cannot be r
 
 Fixed transports not taking damage when abandoned.
 
-### mp_eastwood ver 2.0.3
+### mp_eastwood ver. 2.0.3
 
 Lowered walls around AA enplacements.
 
@@ -42,4 +42,12 @@ Lowered walls around AA enplacements.
 
 Removed MBT and added Little Bird.
 
+## 08/07/26
 
+### mp_golmud_railway ver. 1.3.1
+
+Moved PAX Vector to a better position
+
+### mp_eastwood ver. 2.1.1
+
+Removed blocks from HQs. Fixed Heli spawns.
