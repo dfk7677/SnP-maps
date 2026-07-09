@@ -46,8 +46,22 @@ Removed MBT and added Little Bird.
 
 ### mp_golmud_railway ver. 1.3.1
 
-Moved PAX Vector to a better position
+Moved PAX Vector to a better position.
 
 ### mp_eastwood ver. 2.1.1
 
 Removed blocks from HQs. Fixed Heli spawns.
+
+## 09/07/26
+
+### mp_capstone ver. 4.3.1
+
+Removed all restricted areas in rooftops.
+
+### mp_firestorm ver. 2.1.2
+
+Added restricted areas according to ruleset.
+
+### mp_golmud_railway ver. 1.4.0
+
+Removed Little Bird, moved HQs further away.
