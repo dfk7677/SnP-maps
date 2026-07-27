@@ -188,7 +188,7 @@ points = PackedVector2Array(-5.674395, -213.62114, -158.22887, -189.39027, -141.
 
 [node name="AirCombatVolume" parent="CombatArea" unique_id=1326619595 instance=ExtResource("2_74wyv")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -127.48546, 957.817, 819.9912)
-points = PackedVector2Array(-7.0297394, -262.62738, -100.540085, -254.83484, -197.9467, -220.41785, -368.73297, -149.63568, -346.00476, 65.30823, -246.65001, 134.79163, -156.38023, 170.49554, -70.012985, 213.35461, 9.204689, 225.70447, 66.999306, 211.41833, 157.91214, 164.01361, 319.60718, 115.31036, 318.95776, -144.44067, 174.79593, -245.09418)
+points = PackedVector2Array(-6.95372, -267.95374, -110.77232, -263.09674, -211.55531, -229.09766, -368.73297, -149.63568, -346.00476, 65.30823, -266.74622, 151.51813, -198.66664, 222.5669, -88.16968, 243.2091, 21.720215, 251.1018, 86.68274, 231.6737, 170.99187, 194.62408, 339.24725, 113.891174, 323.5878, -163.93488, 195.82643, -250.95416)
 
 [node name="Camera3D" type="Camera3D" parent="." unique_id=1744108590]
 transform = Transform3D(-1, -8.57397e-08, 1.70718e-08, 0, 0.195279, 0.980748, -8.74228e-08, 0.980748, -0.195279, -81.3089, 1459.67, 520.052)
@@ -359,5 +359,5 @@ SectorArea = NodePath("../CombatArea/CombatVolume")
 CapturePoints = [NodePath("../CapturePointA"), NodePath("../CapturePointB"), NodePath("../CapturePointC")]
 
 [node name="Version" parent="." unique_id=222238759 instance=ExtResource("17_dw0lv")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 4, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 4, 1)
 ObjId = 1001

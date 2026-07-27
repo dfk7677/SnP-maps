@@ -6,13 +6,14 @@
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/InteractPoint.tscn" id="4_vd4pt"]
 [ext_resource type="PackedScene" path="res://objects/gameplay/common/VehicleSpawner.tscn" id="5_f4eve"]
 [ext_resource type="PackedScene" path="res://objects/props/FlagPole_01_USA.tscn" id="6_e0ugp"]
-[ext_resource type="Script" uid="uid://bssxr2ucvxqjx" path="res://scripts/gameplay/common/WorldIcon.gd" id="7_c18e3"]
+[ext_resource type="Script" uid="uid://3hvpbglts2bi" path="res://scripts/gameplay/common/WorldIcon.gd" id="7_c18e3"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/WorldIcon.tscn" id="8_2pdrm"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Conquest/CapturePoint.tscn" id="9_4iycq"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/CombatArea.tscn" id="10_eoimc"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/DeployCam.tscn" id="11_kmqvk"]
 [ext_resource type="PackedScene" path="res://static/MP_Battery_Terrain.tscn" id="12_lmorw"]
 [ext_resource type="PackedScene" path="res://static/MP_Battery_Assets.tscn" id="13_cuw2a"]
+[ext_resource type="Texture2D" uid="uid://bmqqe7nwlk6u" path="res://addons/bf_portal/terrain_decal/textures/MP_Battery.jpg" id="14_nwffi"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/Sector.tscn" id="14_o8jvo"]
 [ext_resource type="PackedScene" path="res://objects/props/BarrierStoneBlock_01_A.tscn" id="15_6r41m"]
 [ext_resource type="PackedScene" path="res://objects/gameplay/common/AreaTrigger.tscn" id="16_vwsev"]
@@ -340,12 +341,18 @@ metadata/_edit_lock_ = true
 [node name="MP_Battery_Assets" parent="Static" unique_id=567970471 instance=ExtResource("13_cuw2a")]
 metadata/_edit_lock_ = true
 
+[node name="MP_Battery_Decal" type="Decal" parent="Static" unique_id=1656564920]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 696.96, 200, 88.32001)
+size = Vector3(1400, 500, 1400)
+texture_albedo = ExtResource("14_nwffi")
+upper_fade = 0.0
+
 [node name="Sector" parent="." unique_id=1482139928 node_paths=PackedStringArray("SectorArea", "CapturePoints") instance=ExtResource("14_o8jvo")]
 SectorArea = NodePath("../CombatArea/CombatVolume")
 CapturePoints = [NodePath("../CapturePointA"), NodePath("../CapturePointB"), NodePath("../CapturePointC")]
 
 [node name="Version" parent="." unique_id=384602498 instance=ExtResource("15_6r41m")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, 1)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2, 2, 2)
 ObjId = 1001
 
 [node name="RestrictedAreas" type="Node3D" parent="." unique_id=1215014363]
@@ -357,8 +364,8 @@ ObjId = 20001
 Area = NodePath("../PolygonVolume")
 
 [node name="PolygonVolume" parent="RestrictedAreas" unique_id=1202699696 instance=ExtResource("2_jcr6o")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 988.76697, 18.043495, 205.29994)
-points = PackedVector2Array(-33.00116, -3.8830261, -29.927551, 8.384064, 6.9591064, -1.2203827, 4.1879272, -13.244812)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 975.82153, 21.703743, 202.8089)
+points = PackedVector2Array(-20.05574, -1.3919868, -16.982132, 10.875103, 19.904526, 1.2706566, 17.133347, -10.753773)
 height = 8.0
 
 [node name="AreaTrigger2" parent="RestrictedAreas" unique_id=719099037 node_paths=PackedStringArray("Area") instance=ExtResource("16_vwsev")]
@@ -366,7 +373,27 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 197.022, -67.926, 45.87)
 ObjId = 20002
 Area = NodePath("../PolygonVolume")
 
-[node name="PolygonVolume1" parent="RestrictedAreas" unique_id=338177445 instance=ExtResource("2_jcr6o")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 891.3544, 10.83522, 146.94125)
-points = PackedVector2Array(5.812744, -18.953957, -7.815918, -5.449539, -15.347656, 3.4287415, -15.002136, 7.2104034, -5.9766235, 14.842499, 0.7324829, 18.725586, 6.487915, 7.609848, 0.74090576, 3.8927612, 15.207764, -9.737267, 25.689209, -16.232819, 18.233948, -27.099579)
+[node name="PolygonVolume2" parent="RestrictedAreas" unique_id=338177445 instance=ExtResource("2_jcr6o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 900.4171, 14.444199, 145.94983)
+points = PackedVector2Array(-3.2499866, -17.962524, -16.878649, -4.4581065, -24.410387, 4.420174, -24.064867, 8.201836, -15.039354, 15.833931, -6.478075, 20.99881, -6.6440296, 22.216003, -0.89006233, 23.101234, 0.7052746, 17.178001, 3.0874767, 10.897125, -8.321825, 4.884194, 6.145033, -8.745834, 11.38368, -11.911537, 15.122999, -6.0120997, 25.587294, -12.936676, 21.929396, -18.778282, 12.844862, -20.818108, 9.171217, -26.108147)
 height = 6.0
+
+[node name="AreaTrigger3" parent="RestrictedAreas" unique_id=67565508 node_paths=PackedStringArray("Area") instance=ExtResource("16_vwsev")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 197.022, -67.926, 45.87)
+ObjId = 20003
+Area = NodePath("../PolygonVolume")
+
+[node name="PolygonVolume3" parent="RestrictedAreas" unique_id=1420645196 instance=ExtResource("2_jcr6o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 846.5481, 19.124748, 267.91302)
+points = PackedVector2Array(2.6349564, 4.6336346, 2.6349564, 5.2422314, 8.554939, 5.186903, 8.444283, -7.8702564, -0.40807343, -8.036242, -0.5186691, -1.8949451, -10.643547, -1.7843037, -10.698845, 4.522978)
+height = 8.0
+
+[node name="AreaTrigger4" parent="RestrictedAreas" unique_id=1886918353 node_paths=PackedStringArray("Area") instance=ExtResource("16_vwsev")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 197.022, -67.926, 45.87)
+ObjId = 20004
+Area = NodePath("../PolygonVolume")
+
+[node name="PolygonVolume4" parent="RestrictedAreas" unique_id=1812560268 instance=ExtResource("2_jcr6o")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 821.58374, 16.23658, 266.23242)
+points = PackedVector2Array(-1.1060009, 6.6888733, 5.584978, 6.707779, 11.945818, 0.30900574, 11.748613, -6.8298035, -13.533674, -6.9246674, -13.628584, 0.04812622, -1.0111523, 0.0006866455)
+height = 8.0

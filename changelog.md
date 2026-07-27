@@ -65,3 +65,29 @@ Added restricted areas according to ruleset.
 ### mp_golmud_railway ver. 1.4.0
 
 Removed Little Bird, moved HQs further away.
+
+## 10/07/26
+
+### mp_dumbo ver. 2.4.1
+
+Added restricted areas according to ruleset.
+
+## 16/07/26
+
+### mp_firestorm ver. 2.1.3
+
+Fixed PAX transport spawn position. Moved both MBT to more covered positions.
+
+## 27/07/26
+
+### mp_eastwood ver. 2.1.3
+
+Widened aerial combat area.
+
+## mp_capstone ver. 4.3.2
+
+Changed spawn position of vehicles for NATO
+
+## mp_firestorm ver. 2.1.4
+
+Changed spawn position of vehicles for NATO

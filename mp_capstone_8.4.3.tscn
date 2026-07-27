@@ -15,7 +15,7 @@
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/HQ_PlayerSpawner.tscn" id="18_ahyml"]
 [ext_resource type="PackedScene" path="res://objects/props/FlagPole_01_USA.tscn" id="19_gbt5x"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/InteractPoint.tscn" id="20_gacq2"]
-[ext_resource type="Script" uid="uid://bssxr2ucvxqjx" path="res://scripts/gameplay/common/WorldIcon.gd" id="21_7wlns"]
+[ext_resource type="Script" uid="uid://3hvpbglts2bi" path="res://scripts/gameplay/common/WorldIcon.gd" id="21_7wlns"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/WorldIcon.tscn" id="22_v2ghu"]
 [ext_resource type="PackedScene" path="res://objects/gameplay/common/VehicleSpawner.tscn" id="23_nseqy"]
 
@@ -385,12 +385,12 @@ iconImagePicker = 7
 iconTeamOwnerId = 1
 
 [node name="MBTSpawner" parent="TEAM_1_HQ" unique_id=725935655 instance=ExtResource("23_nseqy")]
-transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 11.7974, 0.409607, -3.19315)
+transform = Transform3D(-0.81915206, 0, 0.57357645, 0, 1, 0, -0.57357645, 0, -0.81915206, 7.2776623, 0.40960693, -1.510025)
 ObjId = 701
 P_DefaultRespawnTime = 120
 
 [node name="TransportSpawner" parent="TEAM_1_HQ" unique_id=1175172367 instance=ExtResource("23_nseqy")]
-transform = Transform3D(-0.25881907, 0, 0.96592593, 0, 1, 0, -0.96592593, 0, -0.25881907, 9.702797, 0.073654175, -9.66069)
+transform = Transform3D(-0.25881907, 0, 0.96592593, 0, 1, 0, -0.96592593, 0, -0.25881907, 9.702797, 0.073654175, -10.382683)
 ObjId = 703
 VehicleType = 13
 P_DefaultRespawnTime = 30
@@ -482,7 +482,7 @@ P_DefaultRespawnTime = 30
 P_KeepAliveAbandonRadius = 10
 
 [node name="Version" parent="." unique_id=6700115 instance=ExtResource("6_kgiww")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 3, 1)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 3, 2)
 ObjId = 1001
 
 [node name="AddedAssets" type="Node3D" parent="." unique_id=1057758190]
