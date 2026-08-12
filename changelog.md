@@ -91,3 +91,11 @@ Changed spawn position of vehicles for NATO
 ## mp_firestorm ver. 2.1.4
 
 Changed spawn position of vehicles for NATO
+
+## mp_tungsten ver. 3.1.1
+
+Added spawn points for flag B team NATO.
+
+## mp_subsurface ver. 1.0.1
+
+Added spawn points for Flag A, C for PAX and NATO respectively.

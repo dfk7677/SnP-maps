@@ -240,7 +240,7 @@ transform = Transform3D(-0.322662, 0, -0.946514, 0, 1, 0, 0.946514, 0, -0.322662
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 270.469, 86.7398, -405.742)
 ObjId = 202
 CaptureArea = NodePath("CaptureArea")
-InfantrySpawnPoints_Team1 = [NodePath("Team1/SpawnPoint"), NodePath("Team1/SpawnPoint2"), NodePath("Team1/SpawnPoint3"), NodePath("Team1/SpawnPoint4"), NodePath("Team1/SpawnPoint5")]
+InfantrySpawnPoints_Team1 = [NodePath("Team1/SpawnPoint"), NodePath("Team1/SpawnPoint2"), NodePath("Team1/SpawnPoint3"), NodePath("Team1/SpawnPoint4"), NodePath("Team1/SpawnPoint5"), NodePath("Team1/SpawnPoint6"), NodePath("Team1/SpawnPoint7")]
 InfantrySpawnPoints_Team2 = [NodePath("Team2/SpawnPoint"), NodePath("Team2/SpawnPoint2"), NodePath("Team2/SpawnPoint3"), NodePath("Team2/SpawnPoint4"), NodePath("Team2/SpawnPoint5")]
 
 [node name="CaptureArea" parent="CapturePointB" unique_id=1142589456 instance=ExtResource("2_et6ml")]
@@ -264,6 +264,12 @@ transform = Transform3D(-0.92783, 0, 0.373004, 0, 1, 0, -0.373004, 0, -0.92783, 
 
 [node name="SpawnPoint5" parent="CapturePointB/Team1" unique_id=2008606723 instance=ExtResource("3_8lfen")]
 transform = Transform3D(-0.932765, 0, -0.360485, 0, 1, 0, 0.360485, 0, -0.932765, 10.1581, -1.58485, 60.1656)
+
+[node name="SpawnPoint6" parent="CapturePointB/Team1" unique_id=1702553103 instance=ExtResource("3_8lfen")]
+transform = Transform3D(-0.9895509, 0, 0.14418381, 0, 1, 0, -0.14418381, 0, -0.9895509, 30.717041, -2.423973, 50.181458)
+
+[node name="SpawnPoint7" parent="CapturePointB/Team1" unique_id=99513242 instance=ExtResource("3_8lfen")]
+transform = Transform3D(0.8995577, 0, -0.4368021, 0, 1, 0, 0.4368021, 0, 0.8995577, -62.503876, -0.97605133, -91.43271)
 
 [node name="Team2" type="Node3D" parent="CapturePointB" unique_id=1185008650]
 
@@ -333,5 +339,5 @@ SectorArea = NodePath("../CombatArea/CombatVolume")
 CapturePoints = [NodePath("../CapturePointA"), NodePath("../CapturePointB"), NodePath("../CapturePointC")]
 
 [node name="Version" parent="." unique_id=112126383 instance=ExtResource("18_kiqj6")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 1, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 1, 1)
 ObjId = 1001
