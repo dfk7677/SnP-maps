@@ -101,3 +101,9 @@ Added spawn points for flag B team NATO.
 ### mp_subsurface ver. 1.0.1
 
 Added spawn points for Flag A, C for PAX and NATO respectively.
+
+## 14/08/26
+
+### mp_capstone ver. 4.3.3
+
+Removed restricted areas on roofs.

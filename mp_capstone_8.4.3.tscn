@@ -193,116 +193,6 @@ CapturePoints = [NodePath("../CapturePointA"), NodePath("../CapturePointB"), Nod
 
 [node name="RestrictedAreas" type="Node3D" parent="." unique_id=357461923]
 
-[node name="AreaTrigger" parent="RestrictedAreas" unique_id=222876545 node_paths=PackedStringArray("Area") instance=ExtResource("17_wsqav")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 127.922, 0, 90.5496)
-ObjId = 20001
-Area = NodePath("../PolygonVolume")
-
-[node name="PolygonVolume" parent="RestrictedAreas" unique_id=463723050 instance=ExtResource("2_ohtur")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 103.893, 135.54, 62.7018)
-points = PackedVector2Array(-0.970383, -8.82327, -8.15839, 3.89949, 1.04227, 8.85921, 8.0865, -3.93543)
-height = 8.0
-
-[node name="AreaTrigger2" parent="RestrictedAreas" unique_id=2066804932 node_paths=PackedStringArray("Area") instance=ExtResource("17_wsqav")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 127.922, 0, 90.5496)
-ObjId = 20002
-Area = NodePath("../PolygonVolume2")
-
-[node name="PolygonVolume2" parent="RestrictedAreas" unique_id=1308308191 instance=ExtResource("2_ohtur")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 131.634, 132.896, 56.9628)
-points = PackedVector2Array(-1.1777, -9.048, -8.33458, 3.72565, 1.22301, 9.07064, 8.28928, -3.74829)
-height = 6.0
-
-[node name="AreaTrigger3" parent="RestrictedAreas" unique_id=240716667 node_paths=PackedStringArray("Area") instance=ExtResource("17_wsqav")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 127.922, 0, 90.5496)
-ObjId = 20003
-Area = NodePath("../PolygonVolume3")
-
-[node name="PolygonVolume3" parent="RestrictedAreas" unique_id=2118007267 instance=ExtResource("2_ohtur")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 118.343, 136.955, 98.0714)
-points = PackedVector2Array(-3.60592, -8.01756, -8.73082, 1.01705, 3.57951, 7.93831, 8.75723, -0.937803)
-height = 6.0
-
-[node name="AreaTrigger4" parent="RestrictedAreas" unique_id=1116638530 node_paths=PackedStringArray("Area") instance=ExtResource("17_wsqav")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 127.922, 0, 90.5496)
-ObjId = 20004
-Area = NodePath("../PolygonVolume4")
-
-[node name="PolygonVolume4" parent="RestrictedAreas" unique_id=481753608 instance=ExtResource("2_ohtur")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 124.862, 137.351, 71.462)
-points = PackedVector2Array(-4.62298, -8.5591, -9.8007, 9.53674e-07, 4.62297, 8.45343, 9.80071, 0.105668)
-height = 6.0
-
-[node name="AreaTrigger6" parent="RestrictedAreas" unique_id=1205637535 node_paths=PackedStringArray("Area") instance=ExtResource("17_wsqav")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 127.922, 0, 90.5496)
-ObjId = 20006
-Area = NodePath("../PolygonVolume6")
-
-[node name="PolygonVolume6" parent="RestrictedAreas" unique_id=1293625548 instance=ExtResource("2_ohtur")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 97.5962, 145.031, 107.351)
-points = PackedVector2Array(-1.23883, -10.713, -10.0931, 3.07325, 1.07445, 10.6457, 10.2575, -3.00593)
-height = 6.0
-
-[node name="AreaTrigger7" parent="RestrictedAreas" unique_id=623079357 node_paths=PackedStringArray("Area") instance=ExtResource("17_wsqav")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 127.922, 0, 90.5496)
-ObjId = 20007
-Area = NodePath("../PolygonVolume7")
-
-[node name="PolygonVolume7" parent="RestrictedAreas" unique_id=1246940905 instance=ExtResource("2_ohtur")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 79.928, 137.049, 77.9084)
-points = PackedVector2Array(-5.10349, -7.79899, -8.76937, 2.91114, 5.03161, 7.65524, 8.84126, -2.76739)
-height = 8.0
-
-[node name="AreaTrigger8" parent="RestrictedAreas" unique_id=814322838 node_paths=PackedStringArray("Area") instance=ExtResource("17_wsqav")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 127.922, 0, 90.5496)
-ObjId = 20008
-Area = NodePath("../PolygonVolume8")
-
-[node name="PolygonVolume8" parent="RestrictedAreas" unique_id=332517063 instance=ExtResource("2_ohtur")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 59.5427, 140.969, 83.9571)
-points = PackedVector2Array(-1.91834, -8.95136, -8.14655, 4.27555, 1.83908, 9.08345, 8.2258, -4.40763)
-height = 6.0
-
-[node name="AreaTrigger9" parent="RestrictedAreas" unique_id=1733654921 node_paths=PackedStringArray("Area") instance=ExtResource("17_wsqav")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 127.922, 0, 90.5496)
-ObjId = 20009
-Area = NodePath("../PolygonVolume9")
-
-[node name="PolygonVolume9" parent="RestrictedAreas" unique_id=312308060 instance=ExtResource("2_ohtur")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 131.401, 136.89, 104.52)
-points = PackedVector2Array(-1.63068, -8.68563, -7.83632, 4.26921, 1.63067, 8.5271, 7.83633, -4.11068)
-height = 6.0
-
-[node name="AreaTrigger10" parent="RestrictedAreas" unique_id=695252120 node_paths=PackedStringArray("Area") instance=ExtResource("17_wsqav")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 127.922, 0, 90.5496)
-ObjId = 20010
-Area = NodePath("../PolygonVolume10")
-
-[node name="PolygonVolume10" parent="RestrictedAreas" unique_id=773857274 instance=ExtResource("2_ohtur")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 176.649, 137.142, 93.1982)
-points = PackedVector2Array(-0.893578, -8.96653, -8.10377, 3.85161, 0.955193, 8.96653, 8.04215, -3.8516)
-height = 6.0
-
-[node name="AreaTrigger11" parent="RestrictedAreas" unique_id=1725067541 node_paths=PackedStringArray("Area") instance=ExtResource("17_wsqav")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 127.922, 0, 90.5496)
-ObjId = 20011
-Area = NodePath("../PolygonVolume11")
-
-[node name="PolygonVolume11" parent="RestrictedAreas" unique_id=2042447707 instance=ExtResource("2_ohtur")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 195.421, 134.711, 94.7913)
-points = PackedVector2Array(-1.24271, -8.99021, -8.85429, -1.61164, 1.12621, 9.02905, 8.97079, 1.5728)
-height = 6.0
-
-[node name="AreaTrigger12" parent="RestrictedAreas" unique_id=1362875692 node_paths=PackedStringArray("Area") instance=ExtResource("17_wsqav")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 127.922, 0, 90.5496)
-ObjId = 20012
-Area = NodePath("../PolygonVolume12")
-
-[node name="PolygonVolume12" parent="RestrictedAreas" unique_id=1577423754 instance=ExtResource("2_ohtur")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 84.6524, 144.071, 121.569)
-points = PackedVector2Array(-1.768, -9.15371, -8.6119, 4.07781, 1.99613, 9.43888, 8.38377, -4.36298)
-height = 6.0
-
 [node name="AreaTrigger13" parent="RestrictedAreas" unique_id=921147301 node_paths=PackedStringArray("Area") instance=ExtResource("17_wsqav")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 127.922, 0, 90.5496)
 ObjId = 20013
@@ -482,7 +372,7 @@ P_DefaultRespawnTime = 30
 P_KeepAliveAbandonRadius = 10
 
 [node name="Version" parent="." unique_id=6700115 instance=ExtResource("6_kgiww")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 3, 2)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 4, 3, 3)
 ObjId = 1001
 
 [node name="AddedAssets" type="Node3D" parent="." unique_id=1057758190]
