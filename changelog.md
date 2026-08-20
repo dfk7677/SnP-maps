@@ -107,3 +107,9 @@ Added spawn points for Flag A, C for PAX and NATO respectively.
 ### mp_capstone ver. 4.3.3
 
 Removed restricted areas on roofs.
+
+## 20/08/26
+
+### mp_plaza ver. 1.0.0
+
+First version of Cairo Bazaar.

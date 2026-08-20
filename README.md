@@ -13,3 +13,4 @@ These are the Competitive Conquest 8v8 Maps used in SnP.
 | Rail to Golmud | mp_golmud_railway | 1.4 | 129dd |
 | Hagental Base | mp_subsurface | 1.0 | 129db |
 | Mirak Valley | mp_tungsten | 3.1 | 129dm |
+| Cairo Bazaar | mp_plaza | 1.0 | 12ax6 |
