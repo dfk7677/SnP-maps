@@ -4,7 +4,8 @@ These are the Competitive Conquest 8v8 Maps used in SnP.
 
 | Map Name | Machine Name | Current Version | Experience Code | Status |
 | --- | --- | --- | --- | --- |
-| Siege of Cairo | mp_abbasid | 1.3 | 1x8ak | Season 2 Final |
+| All maps (60Hz) | - | Season 2 | 1x8ak | Season 2 Final |
+| Siege of Cairo | mp_abbasid | 1.3 | 12eqm | Season 2 Final |
 | Iberian Offensive | mp_battery | 2.2 | 129df | Season 2 Final |
 | Liberation Peak | mp_capstone | 4.3 | 129d9 | Season 2 Final |
 | Manhattan Bridge | mp_dumbo | 2.4 | 129d8 | Season 2 Final |
