@@ -113,3 +113,13 @@ Removed restricted areas on roofs.
 ### mp_plaza ver. 1.0.0
 
 First version of Cairo Bazaar.
+
+## 27/08/26
+
+### mp_isolated ver. 1.0.0
+
+First version of Tsuru Reef.
+
+### mp_battery ver. 2.2.3
+
+Added 2 spawans to PAX flag A to avoid not being able to spawn.
