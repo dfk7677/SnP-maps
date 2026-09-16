@@ -123,3 +123,9 @@ First version of Tsuru Reef.
 ### mp_battery ver. 2.2.3
 
 Added 2 spawans to PAX flag A to avoid not being able to spawn.
+
+## 16/09/26
+
+### All maps with vehicles
+
+Added vehicle spawn points to HQs.
