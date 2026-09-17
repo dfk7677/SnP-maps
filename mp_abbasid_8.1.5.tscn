@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://skntl04htflu"]
+[gd_scene format=3 uid="uid://bog4wwbwooaa6"]
 
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/Sector.tscn" id="1_8aqyb"]
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/CombatArea.tscn" id="2_lkwba"]

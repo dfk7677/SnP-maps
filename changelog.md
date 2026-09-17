@@ -129,3 +129,9 @@ Added 2 spawans to PAX flag A to avoid not being able to spawn.
 ### All maps with vehicles
 
 Added vehicle spawn points to HQs.
+
+## 17/09/26
+
+### mp_isolated ver. 2.0.0
+
+New smaller version of mp_isolated.

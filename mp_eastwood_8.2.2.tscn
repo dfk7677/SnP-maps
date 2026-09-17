@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://dvt73le5ipjwp"]
+[gd_scene format=3 uid="uid://dhi15ei06fl5k"]
 
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/HQ_PlayerSpawner.tscn" id="1_02wqe"]
 [ext_resource type="PackedScene" uid="uid://jv31so3xcr7p" path="res://addons/bf_portal/portal_tools/types/PolygonVolume/PolygonVolume.tscn" id="2_5wfxo"]

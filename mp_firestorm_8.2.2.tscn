@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://c6t6byylm0i8f"]
+[gd_scene format=3 uid="uid://bwaoo6bc0l8v8"]
 
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/CombatArea.tscn" id="1_h7351"]
 [ext_resource type="PackedScene" uid="uid://jv31so3xcr7p" path="res://addons/bf_portal/portal_tools/types/PolygonVolume/PolygonVolume.tscn" id="2_288x0"]

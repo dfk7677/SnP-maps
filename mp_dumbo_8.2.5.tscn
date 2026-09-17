@@ -1,4 +1,4 @@
-[gd_scene format=3 uid="uid://bkdjdbwvbimjv"]
+[gd_scene format=3 uid="uid://clcojnq82dawb"]
 
 [ext_resource type="PackedScene" path="res://objects/Gameplay/Common/HQ_PlayerSpawner.tscn" id="1_cebrg"]
 [ext_resource type="PackedScene" path="res://objects/props/FlagPole_01_USA.tscn" id="2_mmroo"]
