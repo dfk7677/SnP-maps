@@ -197,7 +197,7 @@ transform = Transform3D(-0.511638, 0, -0.859201, 0, 1, 0, 0.859201, 0, -0.511638
 transform = Transform3D(0.388465, 0, -0.921463, 0, 1, 0, 0.921463, 0, 0.388465, 33.6243, -1.65493, -35.3924)
 
 [node name="SpawnPoint3" parent="CapturePointA/Spawns/NATO" unique_id=1788644370 instance=ExtResource("8_7sexo")]
-transform = Transform3D(-0.685742, 0, -0.727845, 0, 1, 0, 0.727845, 0, -0.685742, 20.7192, 6.20372, 51.0255)
+transform = Transform3D(-0.685742, 0, -0.727845, 0, 1, 0, 0.727845, 0, -0.685742, 29.298218, 6.5968323, 53.688354)
 
 [node name="SpawnPoint4" parent="CapturePointA/Spawns/NATO" unique_id=2141835707 instance=ExtResource("8_7sexo")]
 transform = Transform3D(0.759464, 0, -0.650549, 0, 1, 0, 0.650549, 0, 0.759464, 45.0038, 0.140976, -4.10739)

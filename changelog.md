@@ -135,3 +135,8 @@ Added vehicle spawn points to HQs.
 ### mp_isolated ver. 2.0.0
 
 New smaller version of mp_isolated.
+
+## 01/01/26
+
+Added mp_atoll.
+A spawn change in mp_battery.
